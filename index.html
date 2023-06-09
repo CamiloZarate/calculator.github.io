@@ -5,13 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/logo.png">
     <title>Calculator</title>
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces&display=swap" rel="stylesheet">
     <link href="estilos.css" rel="stylesheet" />
     <script src="Display.js" type="text/javascript"></script>
     <script src="Calculadora.js" type="text/javascript"></script>
     <script src="index.js" type="text/javascript" defer></script>
+    <style>
+        #ultimo + div {
+            visibility: hidden;
+        }
+    </style>
 </head>
 <body>
+    <div>
     <div class="container">
         <div class="calculadora">
             <div class="display">
@@ -38,5 +43,10 @@
             <button class="operador" value="igual">=</button>
         </div>
     </div>
+    <center><a href="https://camilo-barreto.000webhostapp.com/" class="link-custom">Volver a la pagina</a></center> 
+</div>
+
+
+    <div id="ultimo"></div>
 </body>
 </html>
